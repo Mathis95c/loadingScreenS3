@@ -14,7 +14,7 @@ function changeImage() {
 
 window.onload = () => {
   carouselImage.src = images[currentIndex];
-  setInterval(changeImage, 5000);
+  setInterval(changeImage, 8000);
 
   // Lecture du son d'intro une seule fois
   const introSound = document.getElementById('intro-sound');
